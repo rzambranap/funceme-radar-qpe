@@ -1,0 +1,10 @@
+name: pacha
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - xradar
+  - geopandas
+  - cartopy
+  - ipykernel
+  - psycopg2

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments and secrets
+.venv/
+.env
+.env.*
+
+# Radar and gauge data
+data/raw/*
+data/processed/*
+data/gauges/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/gauges/.gitkeep
+
+# Generated figures and temporary outputs
+results/figures/*
+!results/figures/.gitkeep
+*.nc
+*.nc4
+*.h5
+
+# Jupyter and OS
+.DS_Store
+*.log
+
+# Local, machine-specific Conda exports
+environment-full.yml
+conda-linux-64.txt
