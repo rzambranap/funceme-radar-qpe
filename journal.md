@@ -16,24 +16,24 @@ A place to keep track of what works, what doesn't, and what comes next.
 
 ## 2026-10-27 — Getting started
 
-### What we did
+### What was done
 
 - Set up the Git repository and connected GitHub.
-- Decided to reuse the existing `pacha` Conda environment.
+- Reuse the existing `pacha` Conda environment.
 - Kept PACHA as a separate package under `WORK/code/PACHA/`.
-- Organized the FUNCEME project under `WORK/projects/`.
+- Organized the FUNCEME radar project under `WORK/projects/`.
 
 ### Notes
 
 - Python 3.10.19.
 - Jupyter notebooks for exploration, PACHA for reusable functions.
-- No Quarto.
+- Somehow quarto got used for making this journal, check it 
 
 ### Next
 
-- [ ] Open some FUNCEME radar files.
-- [ ] Explore their structure, coordinates, and variables.
-- bebe
+- [x] Re-process gauges and create processed csvs.
+- [ ] Choose 20 days with significant radar data, best correlations in order to calibrate in Z-Z space.
+- [ ] First calibration
 
 ---
 
